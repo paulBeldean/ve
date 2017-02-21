@@ -1,0 +1,17 @@
+Install dependencies with:
+composer install
+
+Configure the database in the .env file
+
+Run migrations:
+php artisan migrate --seed
+
+Open the project in the browser, it only has the main page, requests are done with AngularJS.
+
+
+I used minimal Bootstrap and AngularJS on the front-end, Laravel and MySQL on the back-end.
+
+I didn't use unit or functional testing professionally but I wrote some tests for the json api routes.
+They are in tests/CrudTest.php
+You car run them from the root folder using:
+phpunit
